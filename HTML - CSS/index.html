@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about.html">About</a> </li>
+                        <li><a href="course.html">Courses</a> </li>
+                        <li><a href="blog.html">Blog</a> </li>
+                        <li><a href="contact.html">Contact</a> </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>just a random text just a random text just a random text just a random text just a random text just a random text <br> just a random text just a random text just a random text</p>
+                <a href="" class="hero-btn">Visit Us to Know more</a>
+            </div>
+        </section>
+        <!----Course------>
+        <section class="course">
+            <h1>Courses We offer</h1>
+            <p>some random text, some random text some random text some random</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quidem.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quidem.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam, quidem.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!----Campus------>
+        <section class="campus">
+            <h1>Campus</h1>
+            <p>some random text, some random text some random text some random</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./eduford_img/london.png">
+                    <div class="layer">
+                        <h3>London</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./eduford_img/newyork.png">
+                    <div class="layer">
+                        <h3>New York</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./eduford_img/washington.png">
+                    <div class="layer">
+                        <h3>Washington</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----Facilities-->>
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>some random text, some random text some random text some random</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./eduford_img/library.png">
+                    <h3>Library</h3>
+                    <p>
+                        some random text, some random text some random text some random
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./eduford_img/basketball.png">
+                    <h3>Basketball</h3>
+                    <p>
+                        some random text, some random text some random text some random
+                    </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./eduford_img/cafeteria.png">
+                    <h3>Cafeteria</h3>
+                    <p>
+                        some random text, some random text some random text some random
+                    </p>
+                </div>
+        </section>
+
+        <!------JavaScript------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0px";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
