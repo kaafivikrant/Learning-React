@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+.body{
+    background-color: #f2f2f2;
+    font-family: poppins;
+    font-size: 14px;
+}
+.primary{
+    padding: 10%;
+}
+.primary-head{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.secondary{
+    padding: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+.secondary-head{
+    text-align: left;
+    padding: 1%;
+    margin: initial;
+    padding-left: 150px;
+    padding-top: 1px;
+}
+.bar{
+    height: 7px;
+    width: 300px;
+    background-color: rgb(244, 237, 109);
+    transform: rotate(90deg);
+    position: relative;
+    top: 319px;
+}
