@@ -1,0 +1,15 @@
+service: my-functions
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  myFunction:
+    handler: handler.handlerFunction
+    events:
+      - http:
+          path: /api/say-hello
+          method: GET
+          cors: true
